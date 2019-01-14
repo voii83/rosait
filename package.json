@@ -1,0 +1,41 @@
+{
+  "name": "rosait",
+  "version": "1.0.0",
+  "description": "This is test work rosait",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voii83/rosait.git"
+  },
+  "keywords": [
+    "landing",
+    "testwork",
+    "rosait"
+  ],
+  "author": "Vladimir Filippov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voii83/rosait/issues"
+  },
+  "homepage": "https://github.com/voii83/rosait#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp.spritesmith": "^6.9.0",
+    "gulp4": "^4.0.2",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "bootstrap": "^3.4.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.5"
+  }
+}

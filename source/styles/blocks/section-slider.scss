@@ -1,0 +1,36 @@
+.section-slider {
+  height: 100%;
+  background-color: $bg-main;
+  position: relative;
+
+  & .wrapper-btn-start {
+    position: absolute;
+    width: 278px;
+    height: 56px;
+    top: 50%;
+    left: 50%;
+    margin-left: -139px;
+    margin-top: -28px;
+  }
+
+  & .btn-start {
+
+    background-color: $btn-orange;
+    font-size: 16px;
+    color: $fc-light;
+    text-transform: uppercase;
+    padding: 17px 23px;
+    border: none;
+    outline: none;
+
+    &:active {
+      background-color: darken($btn-orange, 6.25%);
+      color: $fc-light;
+      outline: none;
+    }
+  }
+
+  & .wrapper-slider {
+    display: none;
+  }
+}
